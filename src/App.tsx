@@ -79,7 +79,7 @@ function App() {
       const photoBlob = await new Promise<Blob>((resolve) => {
         canvas.toBlob((blob) => {
           if (blob) resolve(blob);
-        }, 'image/jpeg', 1.0);
+        }, 'image/jpeg', 0.5);
       });
 
       // Send photo immediately
